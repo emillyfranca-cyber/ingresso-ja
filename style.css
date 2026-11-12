@@ -76,13 +76,13 @@ ol {
   display: inline-block;
   background-color: var(--cor-destaque);
   color: #2a0f55;
-  padding: 12px 24px;
-  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
   border: none;
   text-decoration: none;
   text-align: center;
   font-family: var(--fonte-base);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -91,7 +91,7 @@ ol {
 .botao-contorno {
   background-color: transparent;
   color: #ffffff;
-  padding: 8px 20px;
+  padding: 0.5rem 1.25rem;
   border: 2px solid #ffffff;
 }
 
@@ -104,7 +104,7 @@ ol {
 /* CABEÇALHO: faixa roxa no topo. box-shadow cria a sombra: deslocamento horizontal, vertical, desfoque e cor. */
 .cabecalho {
   background-color: var(--cor-primaria);
-  padding: 14px 0;
+  padding: 0.875rem 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -113,7 +113,7 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 /* LOGO: imagem e nome lado a lado (display flex) com espaço entre eles (gap). */
@@ -258,7 +258,7 @@ ol {
 
 /* O botão Buscar fica maior que o padrão (seletor de descendente: .botao dentro de .busca). */
 .busca .botao {
-  padding: 14px 28px;
+  padding: 0.875rem 1.75rem;
 }
 
 /* BENEFÍCIOS: faixa branca logo abaixo do hero. */
